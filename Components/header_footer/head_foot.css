@@ -1,0 +1,31 @@
+#footer{
+	 min-height: calc(100% - 285px);
+}
+nav {
+	top: 0px;
+	bottom: 0px;
+	display: inline-block;
+	margin: 0px 0px 0px;
+	background-color: #001F3F;
+	transition: .7s;
+	padding: 0px;
+}
+a,a:link,a:visited {	
+    font-family: 'Orbitron', sans-serif;
+	display: inline-block;
+	padding: 10px 15px;
+	color: #36CCCC !important;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: transparent;
+	transition: .7s;	
+}
+a:hover{
+	background-color: #36CCCC;
+	color: #001F3F !important;
+	padding-left: 3%;
+	padding-right: 3%;
+	transition: .7s;
+}

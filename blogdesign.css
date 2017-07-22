@@ -1,0 +1,13 @@
+#body{
+  text-shadow: none;
+  color: #c14000;
+  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+  background-color: #2b2b2b;
+}
+.paragraph{
+  color: #F5F5DC;
+}
+::selection {
+    color: #2b2b2b;
+    background: #F5F5DC;
+}

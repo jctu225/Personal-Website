@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" type="text/css" href="blogdesign.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:500|Source+Code+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+  <!-- Link to jquery -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <!--<script src="//code.jquery.com/jquery-1.10.2.js"></script>-->
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+<div id="body">
+ <div class="container">
+  <div class="row">
+   <h1>Josh's Blog</h1>
+  </div>
+  <div class="row">
+   <div class="col-lg-8">
+    <h2>[Date]For Loops:</h2>
+    <div>
+     <div class="col-lg-8">
+      <div class="paragraph">
+       <p>
+        <?php
+        $myfile = fopen("test.txt", "r") or die("Unable to open file!");
+        echo fread($myfile,filesize("test.txt"));
+        fclose($myfile);
+        ?>
+      </p>
+      </div>
+     </div>
+    </div>
+   </div>
+ </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+::selection  {
+  background: #8facbf; /* WebKit/Blink Browsers */
+}
+.parallax {
+    /* The image used */
+    background-image: url("Images/ComputerOne.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+    padding-right: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxTwo {
+    /* The image used */
+    background-image: url("Images/ComputerOne.jpg");
+
+    /* Set a specific height */
+    height: 250px;
+    padding-right: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxThree{
+    /* The image used */
+    background-image: url("Images/ComputerOne.jpg");
+
+    /* Set a specific height */
+    height: 250px;
+    padding-right: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxFour{
+    /* The image used */
+    background-image: url("Images/ComputerOne.jpg");
+
+    /* Set a specific height */
+    height: 250px;
+    padding-right: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skill-image{
+  width: 10%;
+  height: 5px;
+}
+#firstly{
+	padding-top: 80px;
+}
+#backing{
+	background: rgba(42, 54, 59, .91);
+	border-radius: 45px;
+}
+#bio{
+	font-family:'Orbitron', sans-serif;
+	transition: .9s;
+}
+#bio:hover{
+	background-color: #42cbf4;
+	color: #2A363B;
+	padding-left: 3%;
+	padding-right: 3%;
+	transition: .9s;
+	border-radius: 45px;
+}
+#skills{
+	font-family:'Orbitron', sans-serif;
+	transition: .9s;
+	border-radius: 45px;
+}
+#skills:hover{
+	background-color: #42cbf4;
+	color: #2A363B;
+	padding-left:3%;
+	padding-right:3%;
+	transition: .9s;
+	border-radius: 45px;
+}
+#secondly{
+	padding-top:80px;
+}
+#back{
+	background: rgba(42, 54, 59, .91);
+	border-radius: 45px ;
+}
+#project{
+	font-family:'Orbitron', sans-serif;
+	transition: .9s;
+	border-radius: 45px;
+}
+#project:hover{
+	background-color: #42cbf4 !important;
+	color: #2A363B;
+	padding-left:3%;
+	padding-right:3%;
+	transition: .9s;
+	border-radius: 45px;
+}
+#body{
+	font-family:  'Open Sans', sans-serif,'Source Code Pro', monospace;
+	color: #42cbf4;
+	background-color: #2A363B/*LightGrey #5e5e5f*/;
+	/*text-shadow: 0px 1px #8facbf;*/
+	width: 100%;
+	padding: 0%;
+	font-size: 13px;
+}
+#footer{
+	 min-height: calc(100% - 285px);
+}
+nav {
+	top: 0px;
+	bottom: 0px;
+	display: inline-block;
+	margin: 0px 0px 0px;
+	background-color: #2A363B;
+	transition: .7s;
+	padding: 0px;
+}
+a,a:link,a:visited {
+    font-family: 'Orbitron', sans-serif;
+	display: inline-block;
+	padding: 10px 15px;
+	color: #42cbf4 !important;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: transparent;
+	transition: .7s;
+	border-radius: 45px;
+}
+a:hover{
+	background-color: #42cbf4;
+	color: #2A363B !important;
+	padding-left: 3%;
+	padding-right: 3%;
+	transition: .7s;
+	border-radius: 45px;
+}
